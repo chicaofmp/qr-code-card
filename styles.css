@@ -12,7 +12,7 @@ body{
 .card-section{
     background-color: white;
     border-radius: 20px;
-    width: 300px;
+    width: 310px;
     padding: 15px;
     margin: 0 auto;
     margin-top: 150px;
@@ -26,13 +26,16 @@ body{
 .h1-div h1{
     text-align: center;
     font-size: 21px;
-    padding: 10px 0;
+    padding: 10px 5px 5px 5px;
     color: hsl(218, 44%, 22%);
 }
 .p-div p{
     font-size: 15px;
     text-align: center;
     color: hsl(220, 15%, 55%);
-    padding: 5px 5px 20px 5px;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px ;
     padding-bottom: 20px;
 }
