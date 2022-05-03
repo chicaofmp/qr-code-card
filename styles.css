@@ -12,7 +12,7 @@ body{
 .card-section{
     background-color: white;
     border-radius: 20px;
-    width: 310px;
+    width: 300px;
     padding: 15px;
     margin: 0 auto;
     margin-top: 150px;
@@ -21,6 +21,7 @@ body{
 .img-div img{
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 5px;
 }
 .h1-div h1{
     text-align: center;
