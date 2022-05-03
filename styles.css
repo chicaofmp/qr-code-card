@@ -2,19 +2,40 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: hsl(212, 45%, 89%);
+    
     font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
 }
 
 .card-section{
-    background-color: white ;
+    background-color: white;
+    border-radius: 20px;
     width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 15px;
+    margin: 0 auto;
+    margin-top: 150px;
 }
 .img-div img{
     width: 100%;
+    border-radius: 10px;
+}
+.h1-div h1{
+    text-align: center;
+    font-size: 21px;
+    padding: 10px 0;
+    color: hsl(218, 44%, 22%);
+}
+.p-div p{
+    font-size: 15px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    padding: 5px 5px 20px 5px;
+    padding-bottom: 20px;
+}
+.attribution{
+    display: flex;
     justify-content: center;
+    align-items: flex-end;
 }
